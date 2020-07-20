@@ -1,17 +1,17 @@
 {
-  "name": "mikeal",
+  "name": "@srl295/card",
   "version": "1.1.1",
-  "description": "A personal card for Mikeal Rogers (@mikeal)",
+  "description": "A personal card for Steven R. Loomis (@srl295)",
   "main": "index.js",
   "bin": {
-    "mikeal": "./bin/card.js"
+    "@srl295/card": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikeal/bitandbang.git"
+    "url": "git+https://github.com/srl295/npm-card.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./bin/card.js"
   },
   "keywords": [],
   "license": "MIT",
@@ -24,8 +24,8 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/mikeal/bitandbang/issues"
+    "url": "https://github.com/srl295/npm-card/issues"
   },
-  "homepage": "https://github.com/mikeal/bitandbang#readme",
-  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)"
+  "homepage": "https://github.com/srl295/npm-card#readme",
+  "author": "Steven R. Loomis <srl295@gmail.com> (https://git.io/srl295)"
 }

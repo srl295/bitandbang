@@ -2,8 +2,15 @@
 // 👆 Used to tell Node.js that this is a CLI tool
 
 // Pull in our modules
-var chalk = require('chalk')
-var boxen = require('boxen')
+const chalk = require('chalk')
+const boxen = require('boxen')
+const Card = require('../main')
+const card = new Card();
+const package = require('../package');
+const {
+  name, handle, work, twitter, github, linkedin, web
+} = card.data;
+const npx = package.name;
 
 // Define options for Boxen
 let options = {
